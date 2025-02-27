@@ -1,0 +1,22 @@
+# Ignore everything
+*
+
+# Except the .gitignore file itself
+!.gitignore
+
+# Except the data directory and its contents
+!clean/
+!clean/*
+# Except the Mo_hinh_huan_luyen directory and its contents
+!Mo_hinh_huan_luyen/
+!Mo_hinh_huan_luyen/*
+
+# Except the xgboost directory and its contents
+!xgboost/
+!xgboost/*
+
+# Except the .py files in the root directory
+!*.py
+
+# Except the README.md file
+!README.md
